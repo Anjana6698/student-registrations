@@ -1,0 +1,32 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Masterpage.master.cs" Inherits="student_registration.Masterpage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="css/mystyle.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+      <link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<body style="background-color:#e4b8f9;">
+<header id="header">  
+<h1></h1>  
+</header>  
+    <nav id="nav">  
+    <ul><li><a href="Firstform.aspx">Home</a></li>
+                <li><a href="../student/StudentReg.aspx">Register</a></li>
+                 <li><a href="Login.aspx">Login</a></li>
+                 <li><a href="../faculty/FacReg.aspx">Faculty Registration</a></li> 
+    </ul>  
+</nav>  
+    <div id="con">  
+        <asp:ContentPlaceHolder ID="ContentBody" runat="server">  
+
+        </asp:ContentPlaceHolder>  
+    </div>  
+ <div class="footer"> 
+        </div>
+</body>
+</html>
